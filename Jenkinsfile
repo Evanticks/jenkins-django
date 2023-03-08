@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'master',url:'https://github.com/Evanticks/jenkins-django.git'
+                git branch:'main',url:'https://github.com/Evanticks/jenkins-django.git'
             }
         }
         stage('Install') {
